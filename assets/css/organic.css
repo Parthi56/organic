@@ -151,7 +151,7 @@ button {
     width: 450px !important;
     object-fit: cover;
     transform: translate(800px, 50px);
-    animation: fruits 2s infinite linear alternate;
+    animation: fruits 3s infinite linear alternate;
 }
 
 .orange img {
@@ -165,7 +165,7 @@ button {
     width: 400px !important;
     object-fit: cover;
     transform: translate(780px, 80px);
-    animation: fruits 2s infinite linear alternate;
+    animation: fruits 3s infinite linear alternate;
 }
 
 .cabbage .carousel-caption,
@@ -193,6 +193,262 @@ button {
     padding: 10px 0px 30px;
 }
 
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .orange .carousel-caption {
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        text-align: end;
+    }
+
+    .cabbage .carousel-caption,
+    .avacodo .carousel-caption {
+        position: absolute;
+        top: 50px;
+        left: 80px;
+        text-align: start;
+    }
+
+    .avacodo img {
+        width: 450px !important;
+        object-fit: cover;
+        transform: translateX(190px);
+        animation: fruits1 3s infinite linear alternate;
+    }
+
+    .orange img {
+        width: 500px !important;
+        object-fit: cover;
+        transform: translateX(80px);
+        animation: orange 3s infinite linear alternate;
+    }
+
+    .cabbage img {
+        width: 400px !important;
+        transform: translateX(190px);
+        animation: fruits1 3s infinite linear alternate;
+    }
+
+
+    .cabbage {
+        padding: 0px 0px 30px;
+        background-image: url("../images/slider-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 200px 70px;
+
+    }
+
+    .avacodo {
+        padding: 0px 0px 30px;
+        background-image: url("../images/h1-slide3-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 200px 70px;
+    }
+
+
+
+    /* animation */
+
+
+
+    @keyframes fruits1 {
+        to {
+            transform: translate(190px, 40px);
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    /* .carousel-caption h1 {
+        font-size: 40px;
+    } */
+
+    .orange .carousel-caption {
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        text-align: end;
+    }
+
+    .cabbage .carousel-caption,
+    .avacodo .carousel-caption {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        text-align: start;
+    }
+
+    .avacodo img {
+        width: 450px !important;
+        object-fit: cover;
+        transform: translateX(350px);
+        animation: fruits2 3s infinite linear alternate;
+    }
+
+    .orange img {
+        width: 500px !important;
+        object-fit: cover;
+        transform: translateX(10px);
+        animation: orange1 3s infinite linear alternate;
+    }
+
+    .cabbage img {
+        width: 400px !important;
+        transform: translateX(350px);
+        animation: fruits2 3s infinite linear alternate;
+    }
+
+
+    .cabbage {
+        padding: 0px 0px 30px;
+        background-image: url("../images/slider-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 350px 70px;
+
+    }
+
+    .avacodo {
+        padding: 0px 0px 30px;
+        background-image: url("../images/h1-slide3-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 350px 70px;
+    }
+
+    .orange {
+        padding: 0px 0px 30px;
+        background-image: url("../images/h1-slide2-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 120px 70px;
+    }
+
+
+
+
+    /* animation */
+
+
+
+    @keyframes fruits2 {
+        to {
+            transform: translate(350px, 40px);
+        }
+    }
+
+    @keyframes orange1 {
+        to {
+            transform: translate(10px, 40px);
+        }
+    }
+
+}
+
+
+@media screen and (max-width:1100px) {
+
+    /* .carousel-caption h1 {
+        font-size: 40px;
+    } */
+
+    .orange .carousel-caption {
+        position: absolute;
+        top: 50px;
+        right: 110px;
+        text-align: end;
+    }
+
+    .cabbage .carousel-caption,
+    .avacodo .carousel-caption {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        text-align: start;
+    }
+
+    .avacodo img {
+        width: 450px !important;
+        object-fit: cover;
+        transform: translateX(600px);
+        animation: fruits2 3s infinite linear alternate;
+    }
+
+    .orange img {
+        width: 500px !important;
+        object-fit: cover;
+        transform: translateX(10px);
+        animation: orange1 3s infinite linear alternate;
+    }
+
+    .cabbage img {
+        width: 400px !important;
+        transform: translateX(600px);
+        animation: fruits2 3s infinite linear alternate;
+    }
+
+
+    .cabbage {
+        padding: 0px 0px 30px;
+        background-image: url("../images/slider-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 600px 70px;
+
+    }
+
+    .avacodo {
+        padding: 0px 0px 30px;
+        background-image: url("../images/h1-slide3-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 600px 70px;
+    }
+
+    .orange {
+        padding: 0px 0px 30px;
+        background-image: url("../images/h1-slide2-layer1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 120px 70px;
+    }
+
+
+
+
+    /* animation */
+
+
+
+    @keyframes fruits2 {
+        to {
+            transform: translate(600px, 40px);
+        }
+    }
+
+    @keyframes orange1 {
+        to {
+            transform: translate(10px, 40px);
+        }
+    }
+
+
+}
 
 
 /* button */
@@ -963,3 +1219,14 @@ button {
 }
 
 /* footerStyle end */
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 576px) {}
